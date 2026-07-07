@@ -25,7 +25,7 @@ Account* Bank::getAccount(int num, const string& password)
         userAccount = NULL;
     }
     // No account with this number/password exists!!!
-    return NULL;
+    return userAccount;
 
 }
 
