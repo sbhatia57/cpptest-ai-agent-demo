@@ -15,7 +15,7 @@ Bank::~Bank()
 Account* Bank::getAccount(int num, string password)
 {
     Account* userAccount = NULL;
-    if (myAccounts.size() > num)
+    if (myAccounts.size() >= num)
     {
         userAccount = (Account*)myAccounts[num];
     }
