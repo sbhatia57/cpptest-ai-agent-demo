@@ -3,6 +3,7 @@
 
 ATM::ATM(Bank* bank, BaseDisplay* display)
 {
+    myCurrentAccount = nullptr;
     myBank = bank;
     myDisplay = display;
 }
